@@ -1,6 +1,6 @@
-import { saveAs } from "file-saver";
 import { Raleway } from "next/font/google";
 import Image from "next/image";
+import { saveAs } from "file-saver";
 
 const raleway = Raleway({
   weight: "900",
