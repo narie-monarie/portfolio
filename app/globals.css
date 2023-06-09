@@ -7,9 +7,3 @@ body {
   color: #111827;
   background: #fff;
 }
-
-[data-theme="dark"],
-[data-theme="dark"] body {
-  color: #fff;
-  background: #111827;
-}
