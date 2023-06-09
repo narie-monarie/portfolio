@@ -14,11 +14,10 @@ export const Hero = () => {
             <Image
               className="object-cover object-center rounded"
               alt="hero"
-              src={"/repo.png"}
+              src="/repo.png"
               width={720}
               height={600}
-              loading="lazy"
-              priority={false}
+              priority
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
