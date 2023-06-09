@@ -1,9 +1,9 @@
 import { Footer } from "./components/Footer/Footer";
 import { NavBar } from "./components/NavBar/NavBar";
 import "./globals.css";
-import { Nunito } from "next/font/google";
+import { Sora } from "next/font/google";
 
-const nunito = Nunito({
+const nunito = Sora({
   weight: "400",
   subsets: ["latin"],
 });
