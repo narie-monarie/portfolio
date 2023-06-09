@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className}>
+      <body className={nunito.className} data-theme="dark">
         <div className="flex flex-col h-screen justify-between">
           <NavBar />
           {children}
