@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Raleway } from "next/font/google";
+import Link from "next/link";
 
 const raleway = Raleway({
   weight: "900",
@@ -28,23 +29,21 @@ export const Hero = () => {
             </div>
             <p className="mb-8 leading-relaxed text-justify">
               Hello, I'm a full-stack developer with a strong command of Golang,
-              Typescript, and Python. I possess a solid foundation in these
-              programming languages and have honed my skills through independent
-              learning and personal projects. My passion for coding, coupled
-              with my eagerness to learn and grow, drives me to deliver
-              high-quality software solutions.
+              Typescript, and Python. My passion for coding, coupled with my
+              eagerness to learn and grow, drives me to deliver high-quality
+              software solutions.
             </p>
             <div className="flex justify-center">
-              <a
+              <Link
                 className="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                href="/download"
+                href={"/download"}
               >
                 <span className="absolute inset-0 translate-x-0 translate-y-0 bg-indigo-600 transition-transform group-hover:translate-y-0.5 group-hover:translate-x-0.5"></span>
 
                 <span className="relative block border border-current bg-white px-8 py-3">
                   Download Resume
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
