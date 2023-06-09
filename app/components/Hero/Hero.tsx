@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Raleway } from "next/font/google";
 
 const raleway = Raleway({
-  weight: "400",
+  weight: "900",
   subsets: ["latin"],
 });
 export const Hero = () => {

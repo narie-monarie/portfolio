@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sora.className} data-theme="dark">
-        <div className="flex flex-col h-screen justify-between">
+        <div className="flex flex-col mx-auto h-screen justify-between w-7/12">
           <NavBar data-theme="light" />
           {children}
           <Footer />
