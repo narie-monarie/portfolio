@@ -7,7 +7,7 @@ export default function page() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Contact Me
             </h1>
-            <p className="lg:w-1/3 mx-auto leading-relaxed">
+            <p className="lg:w-2/4 mx-auto leading-relaxed">
               I would be thrilled to hear from you and discuss potential
               collaborations or answer any inquiries you may have. Please feel
               free to reach out to me using the contact information below. I
