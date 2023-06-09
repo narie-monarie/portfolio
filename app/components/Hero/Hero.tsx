@@ -12,17 +12,21 @@ export const Hero = () => {
               src={"/repo.png"}
               width={720}
               height={600}
+              loading="lazy"
+              priority={false}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-              Understand User Flow.
+              Hello! I'm Job Monari
             </h1>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              Hello, I'm a full-stack developer with a strong command of Golang,
+              Typescript, and Python. I possess a solid foundation in these
+              programming languages and have honed my skills through independent
+              learning and personal projects. My passion for coding, coupled
+              with my eagerness to learn and grow, drives me to deliver
+              high-quality software solutions.
             </p>
             <div className="flex justify-center">
               <a
