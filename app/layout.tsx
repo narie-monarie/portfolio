@@ -3,7 +3,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import "./globals.css";
 import { Sora } from "next/font/google";
 
-const nunito = Sora({
+const sora = Sora({
   weight: "400",
   subsets: ["latin"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className} data-theme="dark">
+      <body className={sora.className} data-theme="dark">
         <div className="flex flex-col h-screen justify-between">
           <NavBar data-theme="light" />
           {children}

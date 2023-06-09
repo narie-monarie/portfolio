@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Raleway } from "next/font/google";
 
-const bebas = Raleway({
+const raleway = Raleway({
   weight: "400",
   subsets: ["latin"],
 });
@@ -22,7 +22,7 @@ export const Hero = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <div className={bebas.className}>
+            <div className={raleway.className}>
               <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-6xl font-extrabold text-transparent sm:text-5xl">
                 Hello! I'm Job Monari
               </h1>
