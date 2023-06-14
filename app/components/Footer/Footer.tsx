@@ -1,21 +1,18 @@
+import Image from "next/image";
+
 export const Footer = () => {
   return (
     <div>
       <footer className="text-gray-400 bg-gray-900 body-font bottom-0 sticky">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
+            <Image
+              src="/favix.png"
+              className="w-10 h-10 rounded-full"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
             <span className="ml-3 text-xl light:text-white dark:text-gray-500">
               MONARI
             </span>
