@@ -2,7 +2,7 @@
 import { GraphQLClient, gql } from "graphql-request";
 import { useEffect, useState } from "react";
 
-const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_SERVER_API_KEY);
+const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_SERVER_API_KEY!);
 
 const GET_QUERY = gql`
   query {

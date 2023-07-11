@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 
-const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_SERVER_API_KEY);
+const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_SERVER_API_KEY!);
 
 const GET_QUERY = gql`
   query {
