@@ -31,10 +31,10 @@ export const Hero = () => {
               </h1>
             </div>
             <div className="mb-8 leading-relaxed text-justify">
-              Hello, I'm a full-stack developer with a strong command of Golang,
-              Typescript, and Python. My passion for coding, coupled with my
-              eagerness to learn and grow, drives me to deliver high-quality
-              software solutions.
+              Hello, I am a full-stack developer proficient in Go, TypeScript,
+              and Python. If you're interested in my skills and experience,
+              please feel free to download my resume by clicking the button
+              below.
             </div>
             <div className="flex justify-center">
               <a
