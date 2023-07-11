@@ -42,7 +42,7 @@ export default function Page({ params }: { params: { slug: string } }) {
       try {
         await graphcms
           .request(GET_QUERY, { slug })
-          .then((response) => setBlogs(response));
+          .then((response) => setBlogs(response as any));
         setLoading(false);
       } catch (error) {
         console.error(error);

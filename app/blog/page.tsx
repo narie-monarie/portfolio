@@ -29,7 +29,7 @@ export default function() {
       try {
         await graphcms
           .request(GET_QUERY)
-          .then((response) => setBlogs(response));
+          .then((response) => setBlogs(response as any));
         setLoading(false);
       } catch (error) {
         console.error(error);
