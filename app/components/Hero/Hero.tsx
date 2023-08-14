@@ -12,7 +12,7 @@ export const Hero = () => {
   };
   return (
     <div>
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-3/4 w-5/6 md:mb-0 mb-10">
             <Image

@@ -1,5 +1,6 @@
 import { Footer } from "./components/Footer/Footer";
 import { NavBar } from "./components/NavBar/NavBar";
+import { ThemeProvider } from "./components/theme-provider";
 import "./globals.css";
 import { Sora } from "next/font/google";
 
@@ -20,12 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={sora.className} data-theme="dark">
-        <div className="mx-auto flex flex-col h-screen justify-between">
-          <NavBar data-theme="dark" />
-          {children}
-          <Footer />
-        </div>
+      <body className={sora.className}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="mx-auto flex flex-col h-screen justify-between">
+            <NavBar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -4,9 +4,9 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <div>
-      <footer className="text-gray-400 bg-gray-900 body-font bottom-0 sticky">
+      <footer className=" body-font bottom-0 sticky">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center">
             <Image
               src="/favix.png"
               className="w-10 h-10 rounded-full"
@@ -14,11 +14,9 @@ export const Footer = () => {
               width={500}
               height={500}
             />
-            <span className="ml-3 text-xl light:text-white dark:text-gray-500">
-              MONARI
-            </span>
+            <span className="ml-3 text-xl">MONARI</span>
           </a>
-          <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+          <p className="text-sm text-gray-700 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             © 2023 Job Monari —
             <a
               href="https://twitter.com/monari_j"
@@ -33,7 +31,7 @@ export const Footer = () => {
             <a
               href="https://www.github.com/narie-monarie"
               target="_blank"
-              className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+              className="transition duration-100 hover:text-gray-500 active:text-gray-500"
             >
               <svg
                 className="h-5 w-5"
@@ -49,7 +47,7 @@ export const Footer = () => {
             <a
               href="https://twitter.com/monari_j"
               target="_blank"
-              className="text-gray-400 ml-3 transition duration-100 hover:text-gray-500 active:text-gray-600"
+              className="ml-3 transition duration-100 hover:text-gray-500 active:text-gray-500"
             >
               <svg
                 className="h-5 w-5"
@@ -65,7 +63,7 @@ export const Footer = () => {
             <a
               href="https://www.instagram.com/narie._monarie/"
               target="_blank"
-              className="text-gray-400 ml-3 transition duration-100 hover:text-gray-500 active:text-gray-600"
+              className="ml-3 transition duration-100 hover:text-gray-500 active:text-gray-500"
             >
               <svg
                 className="h-5 w-5"
@@ -81,7 +79,7 @@ export const Footer = () => {
             <Link
               href="https://www.linkedin.com/in/job-monari/"
               target="_blank"
-              className="text-gray-400 ml-3 transition duration-100 hover:text-gray-500 active:text-gray-600"
+              className="ml-3 transition duration-100 hover:text-gray-500 active:text-gray-500"
             >
               <svg
                 className="h-5 w-5"

@@ -20,7 +20,7 @@ const GET_QUERY = gql`
   }
 `;
 
-export default function() {
+export default function () {
   const [blogs, setBlogs] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -49,16 +49,16 @@ export default function() {
   const post_items = Object.values(blogs);
   const posts = post_items[0];
   return (
-    <div data-theme="dark" className="container mx-auto w-10/12">
-      <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <div className="container mx-auto w-10/12">
+      <section className="body-font overflow-hidden">
         {posts.map((post: any) => {
           return (
             <div key={post.id}>
               <div className="container px-5 py-4 mx-auto">
-                <div className="-my-8 divide-y-2 divide-gray-800">
+                <div className="my-1 divide-y-2 divide-gray-800">
                   <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                      <span className="font-semibold title-font text-white">
+                      <span className="font-semibold title-font text-gray-200">
                         CATEGORY
                       </span>
                       <span className="mt-1 text-gray-700 text-sm cursor-pointer hover:backdrop-blur">
@@ -71,7 +71,7 @@ export default function() {
                     <div className="md:flex-grow">
                       <Link
                         href={"/blog/" + post.slug}
-                        className="text-2xl font-medium cursor-pointer text-white title-font mb-2 hover:underline underline-offset-2"
+                        className="text-2xl font-medium cursor-pointer title-font mb-2 hover:underline underline-offset-2"
                       >
                         {post.title || <Skeleton />}
                       </Link>
