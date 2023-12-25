@@ -31,9 +31,8 @@ export const Hero = () => {
               </h1>
             </div>
             <div className="mb-4 mt-4 leading-relaxed text-justify">
-              Hello, I am a full-stack developer proficient in Python, TypeScript,
-              and Java. If you're interested in my skills and experience,
-              please feel free to download my resume by clicking the button
+              Hello, I am a full-stack and Android developer proficient in Typescript, Java/Kotlin and Golang. 
+              If you're interested in my skills and experience,please feel free to download my resume by clicking the button
               below.
             </div>
             <div className="flex justify-center">
