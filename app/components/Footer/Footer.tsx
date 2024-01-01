@@ -17,7 +17,7 @@ export const Footer = () => {
             <span className="ml-3 text-xl">MONARI</span>
           </a>
           <p className="text-sm text-gray-700 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-            © 2023 Job Monari —
+            © 2024 Job Monari —
             <a
               href="https://twitter.com/monari_j"
               className="text-gray-500 ml-1"
