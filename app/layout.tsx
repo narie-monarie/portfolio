@@ -3,6 +3,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { ThemeProvider } from "./components/theme-provider";
 import "./globals.css";
 import { Sora } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 const sora = Sora({
   weight: "400",
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sora.className}>
+        <Analytics />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="mx-auto flex flex-col h-screen justify-between">
             <NavBar />
